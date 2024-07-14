@@ -70,22 +70,27 @@ ul {
     background: #575757;
 }
 
-/* Add styles for profile photo */
 .profile-photo {
     max-width: 150px;
     border-radius: 50%;
     margin-top: 20px;
 }
 
-/* Add styles for project images */
 .project-image {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
 }
 
-/* Add styles for skill logos */
 .skill-logo {
     max-width: 50px;
     margin-right: 10px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
