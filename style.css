@@ -1,21 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
 }
 
+nav {
+    background: #333;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
 nav ul {
     list-style: none;
-    padding: 0;
-    background: #333;
+    display: flex;
     margin: 0;
-    overflow: hidden;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav ul li a {
@@ -30,7 +39,12 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 20px;
+    padding: 60px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 h1, h2 {
@@ -40,4 +54,38 @@ h1, h2 {
 ul {
     list-style: none;
     padding: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: #575757;
+}
+
+/* Add styles for profile photo */
+.profile-photo {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Add styles for project images */
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Add styles for skill logos */
+.skill-logo {
+    max-width: 50px;
+    margin-right: 10px;
 }
