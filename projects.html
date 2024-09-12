@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Projects - Connor McGraw</title>
 </head>
@@ -11,39 +12,35 @@
         <div class="container">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
+    <header class="hero">
+        <div class="container">
+            <h1>My Projects</h1>
+        </div>
+    </header>
     <section id="projects">
         <div class="container">
-            <h1>Projects</h1>
             <div class="project-grid">
                 <div class="project-card">
                     <h2>NBA Award Prediction</h2>
-                    <p>This project is a sophisticated web application that leverages machine learning to predict NBA Most Valuable Player (MVP) and Rookie of the Year (ROY) awards. It demonstrates proficiency in data science, web development, and sports analytics.</p>
+                    <p>A sophisticated web application leveraging machine learning to predict NBA MVP and Rookie of the Year awards.</p>
                     <h3>Key Features:</h3>
                     <ul>
-                        <li>Data Collection: Scrapes player statistics from Basketball Reference, covering seasons from 1977 to 2024.</li>
-                        <li>Data Preprocessing: Cleans and normalizes player statistics, including per-48-minute performance metrics.</li>
-                        <li>Machine Learning: Utilizes Random Forest Regressors to predict MVP and ROY vote shares, with model calibration using Isotonic Regression.</li>
-                        <li>Web Interface: Flask-based frontend allowing users to upload CSV files with player statistics and receive award predictions.</li>
-                        <li>Interactive Results: Displays top 5 predictions with an option to toggle between simplified and full statistical views.</li>
+                        <li>Data scraping from Basketball Reference (1977-2024)</li>
+                        <li>Advanced data preprocessing and normalization</li>
+                        <li>Machine learning models: Random Forest Regressors and Isotonic Regression</li>
+                        <li>Interactive web interface with Flask</li>
+                        <li>Customizable prediction views</li>
                     </ul>
-                    <h3>Technical Stack:</h3>
-                    <ul>
-                        <li>Python for data processing and machine learning</li>
-                        <li>Flask for web server</li>
-                        <li>HTML/CSS/JavaScript for frontend</li>
-                        <li>Pandas and NumPy for data manipulation</li>
-                        <li>Scikit-learn for machine learning models</li>
-                        <li>Beautiful Soup for web scraping</li>
-                    </ul>
+                    <h3>Tech Stack:</h3>
+                    <p>Python, Flask, HTML/CSS/JavaScript, Pandas, NumPy, Scikit-learn, Beautiful Soup</p>
                     <div class="project-links">
-                        <a href="https://github.com/Conmcgr/NBA-award-prediction" target="_blank" class="button">GitHub Repository</a>
+                        <a href="https://github.com/Conmcgr/NBA-award-prediction" target="_blank" class="button">GitHub</a>
                         <a href="https://nba-award-prediction.onrender.com" target="_blank" class="button">Live Demo</a>
                     </div>
                     <div class="project-images">
@@ -53,13 +50,18 @@
                 </div>
                 <div class="project-card">
                     <h2>SOS Message Encoder</h2>
-                    <p>C Program which can encode and decode messages by bit-packing them.</p>
+                    <p>A C program for encoding and decoding messages using bit-packing techniques.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Efficient message encoding and decoding</li>
+                        <li>Bit-level manipulation for data compression</li>
+                        <li>Command-line interface for easy use</li>
+                    </ul>
+                    <h3>Tech Stack:</h3>
+                    <p>C, Bitwise operations</p>
                     <div class="project-links">
-                        <a href="https://github.com/Conmcgr/sos-message-encoder" target="_blank" class="button">GitHub Repository</a>
+                        <a href="https://github.com/Conmcgr/sos-message-encoder" target="_blank" class="button">GitHub</a>
                     </div>
-                    <!-- Add a screenshot or image related to this project here -->
-                    <!-- Example: -->
-                    <!-- <img src="path/to/sos-message-encoder-screenshot.jpg" alt="sos-message-encoder" class="project-image"> -->
                 </div>
             </div>
         </div>
