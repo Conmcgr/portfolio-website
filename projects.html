@@ -21,24 +21,47 @@
     <section id="projects">
         <div class="container">
             <h1>Projects</h1>
-            <ul>
-                <li>
+            <div class="project-grid">
+                <div class="project-card">
                     <h2>NBA Award Prediction</h2>
-                    <p>Machine learning project to predict NBA end-of-season awards based on statistical data.</p>
-                    <p>GitHub: <a href="https://github.com/Conmcgr/NBA-award-prediction" target="_blank">NBA Award Prediction</a></p>
-                    <p>Live Demo: <a href="https://nba-award-prediction.onrender.com" target="_blank">Live Demo</a></p>
-                    <img src="images/project-images/award-predictions-input.png" alt="NBA Award Prediction Input" class="project-image">
-                    <img src="images/project-images/award-predictions-results.png" alt="NBA Award Prediction Result" class="project-image">
-                </li>
-                <li>
-                    <h2>sos-message-encoder</h2>
+                    <p>This project is a sophisticated web application that leverages machine learning to predict NBA Most Valuable Player (MVP) and Rookie of the Year (ROY) awards. It demonstrates proficiency in data science, web development, and sports analytics.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Data Collection: Scrapes player statistics from Basketball Reference, covering seasons from 1977 to 2024.</li>
+                        <li>Data Preprocessing: Cleans and normalizes player statistics, including per-48-minute performance metrics.</li>
+                        <li>Machine Learning: Utilizes Random Forest Regressors to predict MVP and ROY vote shares, with model calibration using Isotonic Regression.</li>
+                        <li>Web Interface: Flask-based frontend allowing users to upload CSV files with player statistics and receive award predictions.</li>
+                        <li>Interactive Results: Displays top 5 predictions with an option to toggle between simplified and full statistical views.</li>
+                    </ul>
+                    <h3>Technical Stack:</h3>
+                    <ul>
+                        <li>Python for data processing and machine learning</li>
+                        <li>Flask for web server</li>
+                        <li>HTML/CSS/JavaScript for frontend</li>
+                        <li>Pandas and NumPy for data manipulation</li>
+                        <li>Scikit-learn for machine learning models</li>
+                        <li>Beautiful Soup for web scraping</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Conmcgr/NBA-award-prediction" target="_blank" class="button">GitHub Repository</a>
+                        <a href="https://nba-award-prediction.onrender.com" target="_blank" class="button">Live Demo</a>
+                    </div>
+                    <div class="project-images">
+                        <img src="images/project-images/award-predictions-input.png" alt="NBA Award Prediction Input" class="project-image">
+                        <img src="images/project-images/award-predictions-results.png" alt="NBA Award Prediction Result" class="project-image">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>SOS Message Encoder</h2>
                     <p>C Program which can encode and decode messages by bit-packing them.</p>
-                    <p>GitHub: <a href="https://github.com/Conmcgr/sos-message-encoder" target="_blank">sos-message-encoder</a></p>
+                    <div class="project-links">
+                        <a href="https://github.com/Conmcgr/sos-message-encoder" target="_blank" class="button">GitHub Repository</a>
+                    </div>
                     <!-- Add a screenshot or image related to this project here -->
                     <!-- Example: -->
                     <!-- <img src="path/to/sos-message-encoder-screenshot.jpg" alt="sos-message-encoder" class="project-image"> -->
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </section>
 </body>
