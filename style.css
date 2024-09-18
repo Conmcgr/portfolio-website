@@ -175,3 +175,16 @@ h1, h2, h3 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.project-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-videos video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
